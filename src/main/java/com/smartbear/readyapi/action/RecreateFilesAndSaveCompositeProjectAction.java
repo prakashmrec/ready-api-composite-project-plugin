@@ -59,6 +59,11 @@ public class RecreateFilesAndSaveCompositeProjectAction extends AbstractSoapUIAc
     }
 
     @Override
+    public boolean isEnabled() {
+        return shouldBeEnabledFor(modelItemProvider.getTargetModelItem());
+    }
+
+    @Override
     public boolean shouldBeEnabledFor(WsdlProjectPro projectPro) {
         return projectPro != null && projectPro.isComposite();
     }
