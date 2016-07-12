@@ -7,3 +7,7 @@ So, you need to look at the xml files to figure out what model item is saved int
 
 This plugin adds a possibility to recraete the files with new names (as defined in GUI) for composite project. It add an action 'Save and recreate files', which is enabled only for composite projects.
 This action deletes existing files and saves a fresh copy of the composite project with new file names.
+
+# Installation
+Build the latest version using 'mvn clean install' or download the plugin jar from 
+Either install it using **Plugins** toolbar button in Ready! API or copy the jar file in **$user.home/.soapui/plugins** and restart Ready! API.
