@@ -9,5 +9,6 @@ This plugin adds a possibility to recraete the files with new names (as defined 
 This action deletes existing files and saves a fresh copy of the composite project with new file names.
 
 # Installation
-Build the latest version using 'mvn clean install'
+Build the latest version using 'mvn clean install'.
+
 Either install it using **Plugins** toolbar button in Ready! API or copy the jar file in **$user.home/.soapui/plugins** and restart Ready! API.
