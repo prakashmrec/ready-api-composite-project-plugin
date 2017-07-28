@@ -1,7 +1,7 @@
 # ready-api-composite-project-plugin
 A Ready! API plugin which adds a composite project action to save and recreate files with names present in GUI
 
-File names are created when a composite project is saved for first time in Ready! API. File names are never changed afterwards even if the names are changed in GUI for various model items (Tes Suites, Test Cases, Interfaces/operations etc.).
+File names are created when a composite project is saved for first time in Ready! API. File names are never changed afterwards even if the names are changed in GUI for various model items (Test Suites, Test Cases, Interfaces/operations etc.).
 
 So, you need to look at the xml files to figure out what model item is saved into what file. 
 
